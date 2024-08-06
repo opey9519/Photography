@@ -11,12 +11,12 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 2px solid #E6CCB2
+    border-bottom: 4px solid #E6CCB2
 }
 
-#home {
+#home{
     color: #EDE0D4;
-    margin-left: 1em;
+    margin-left: 2em;
     padding: 10px;
     display: block;
     text-decoration: none;
@@ -53,7 +53,7 @@ nav {
 .container {
     display: inline-block;
     cursor: pointer;
-    margin-right: 3em;
+    /* margin-right: 3em; */
 }
 
 /* CSS to bars */
@@ -65,6 +65,7 @@ nav {
     background-color: #EDE0D4;
     margin: 6px 0;
     transition: 0.4s;
+    margin-right: 3em;
 }
 
 /* Rotate first bar */
@@ -89,3 +90,88 @@ nav {
     display: none;
 }
 
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Bottom left text */
+/* .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+} */
+
+/* Top left text */
+/* .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+} */
+
+/* Top right text */
+/* .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+} */
+
+/* Bottom right text */
+/* .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+} */
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* #sunset_text {
+       
+} */
+
+#beach_main {
+    border-bottom: 4px solid #E6CCB2;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.second{
+    background-color: #E6CCB2;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content_left, .content_right {
+    margin-top: 1em;
+    width: 50%;
+}
+
+h1 {
+    color: #7F5539;
+    margin-left: 1em;
+    padding: 10px;
+    display: block;
+    /* background-color: #EDE0D4; */
+    text-align: center;
+    font-size: large;
+    /* font-weight: bold; */
+}
+
+#olivia_pic{
+    border: .5px solid black;
+    margin-left: 7em;
+}
+
+#meet_photographer {
+    text-align: end;
+    margin-right: 2.5em;
+    margin-top: 2em;
+    color: #7F5539;
+}
