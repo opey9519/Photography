@@ -16,16 +16,14 @@ nav {
 
 #home{
     color: #EDE0D4;
-    margin-left: 2em;
+    margin-left: 4em;
     padding: 10px;
     display: block;
     text-decoration: none;
     border-radius: 25px;
     width: 10em;
-    /* background-color: #EDE0D4; */
     text-align: center;
     font-size: large;
-    /* font-weight: bold; */
 }
 
 .buttons {
@@ -44,6 +42,29 @@ nav {
 .buttons:hover {
     color: #EDE0D4;
     background-color: #7F5539;
+}
+
+.buttons_inverse {
+    color: #EDE0D4;
+    background-color: #7F5539;
+    padding: 1em;
+    display: block;
+    text-decoration: none;
+    width: 8em;
+    display: inline;
+    text-align: center;
+}
+
+.money {
+    display: flex;
+    justify-content: center;
+    margin: 2em;
+}
+
+.buttons_inverse:hover {
+    color: #7F5539;
+    background-color: #EDE0D4;
+    border: 2px solid #7F5539;
 }
 
 .navigation {
@@ -65,7 +86,7 @@ nav {
     background-color: #EDE0D4;
     margin: 6px 0;
     transition: 0.4s;
-    margin-right: 3em;
+    margin-right: 4em;
 }
 
 /* Rotate first bar */
@@ -88,6 +109,7 @@ nav {
 /* Makes sure content does not automatically appear */
 .dropdown-content {
     display: none;
+    margin-right: 2em;
 }
 
 .container {
@@ -132,10 +154,6 @@ nav {
     transform: translate(-50%, -50%);
 }
 
-/* #sunset_text {
-       
-} */
-
 #beach_main {
     border-bottom: 4px solid #E6CCB2;
     padding-bottom: 0px;
@@ -145,33 +163,70 @@ nav {
 .second{
     background-color: #E6CCB2;
     display: flex;
-    justify-content: space-evenly;
+    padding-bottom: 2em;
+    border-bottom: 4px solid #E6CCB2;
 }
 
 .content_left, .content_right {
     margin-top: 1em;
+    margin-bottom: 1em;
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content_left {
+    justify-content: start;
 }
 
 h1 {
+    margin-top: 2em;
     color: #7F5539;
-    margin-left: 1em;
+    margin-left: 2.5em;
     padding: 10px;
     display: block;
-    /* background-color: #EDE0D4; */
     text-align: center;
-    font-size: large;
-    /* font-weight: bold; */
+    font-size: 22px;
+}
+
+h2 {
+    color: #7F5539;
+    text-align: center;
+    margin-left: 6em;
+    margin-top: 2.5em;
+    font-size: 22px;
+}
+
+.aboutme {
+    margin-left: 6em;
+    margin-top: 2em;
+    margin-bottom: 3em;
+    font-size: 24px;
+    background-color: #7F5539;
+    color: #EDE0D4;
+    padding: 1.5em;
+    border: 3px solid #67452e;
+    border-radius: 25px;
+    text-align: center;
 }
 
 #olivia_pic{
     border: .5px solid black;
-    margin-left: 7em;
+    margin-left: 13em;
+    margin-top: 1em;
 }
 
 #meet_photographer {
-    text-align: end;
-    margin-right: 2.5em;
+    text-align: center;
+    margin-right: 4em;
     margin-top: 2em;
     color: #7F5539;
+}
+
+#learn_more{
+    margin-left: 23em;
+    padding: 1em;
+    font-size: 18px;
+    border-radius: 12px;
 }
