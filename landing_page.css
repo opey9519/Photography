@@ -7,14 +7,14 @@ body {
 
 nav {
     background-color: #B08968;
-    height: 100px;
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     border-bottom: 4px solid #E6CCB2
 }
 
-#home{
+#home {
     color: #EDE0D4;
     margin-left: 4em;
     padding: 10px;
@@ -28,7 +28,6 @@ nav {
 
 .buttons {
     color: #7F5539;
-    margin-left: 1em;
     padding: 10px;
     display: block;
     text-decoration: none;
@@ -55,12 +54,6 @@ nav {
     text-align: center;
 }
 
-.money {
-    display: flex;
-    justify-content: center;
-    margin: 2em;
-}
-
 .buttons_inverse:hover {
     color: #7F5539;
     background-color: #EDE0D4;
@@ -75,6 +68,9 @@ nav {
     display: inline-block;
     cursor: pointer;
     /* margin-right: 3em; */
+    position: sticky;
+    top: 0;
+    z-index: 9;
 }
 
 /* CSS to bars */
@@ -148,26 +144,26 @@ nav {
 
 /* Centered text */
 .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
+    z-index: 1;
+    width: 50%;
+    color: red;
 }
 
 #beach_main {
-    border-bottom: 4px solid #E6CCB2;
     padding-bottom: 0px;
     margin-bottom: 0px;
 }
 
-.second{
+.second {
     background-color: #E6CCB2;
     display: flex;
-    padding-bottom: 2em;
+    padding-bottom: 3em;
     border-bottom: 4px solid #E6CCB2;
 }
 
-.content_left, .content_right {
+.content_left,
+.content_right {
     margin-top: 1em;
     margin-bottom: 1em;
     width: 50%;
@@ -211,7 +207,7 @@ h2 {
     text-align: center;
 }
 
-#olivia_pic{
+#olivia_pic {
     border: .5px solid black;
     margin-left: 13em;
     margin-top: 1em;
@@ -224,9 +220,119 @@ h2 {
     color: #7F5539;
 }
 
-#learn_more{
+#learn_more {
     margin-left: 23em;
     padding: 1em;
     font-size: 18px;
     border-radius: 12px;
+}
+
+.third {
+    background-color: #B08968;
+    color: #EDE0D4;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2em;
+    height: 110%;
+    padding-bottom: 3.5em;
+    border-top: 4px solid #EDE0D4;
+    border-bottom: 4px solid #EDE0D4;
+}
+
+h3 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.shadowed {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.shadowed_inverse {
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.third_divs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+}
+
+.fourth {
+    background-color: #DDB892;
+    width: 100%;
+    height: 50px;
+    color: #EDE0D4;
+    font-size: 26px;
+    text-align: center;
+    padding-top: 1em;
+    border-bottom: 4px solid #EDE0D4;
+}
+
+#insta_link {
+    text-decoration: none;
+    color: #EDE0D4;
+    background-color: #7F5539;
+    padding: 8px;
+    border: 2px solid #EDE0D4;
+    border-radius: 25px;
+    margin-left: 10px;
+}
+
+#insta_link:hover {
+    color: #7F5539;
+    background-color: #EDE0D4;
+    border: 2px solid #7F5539;
+    text-shadow: none;
+}
+
+.fifth {
+    width: 100%;
+    height: 400px;
+    background-color: #E6CCB2;
+}
+
+
+
+.navbar {
+    position: sticky;
+    top: 0;
+}
+
+h4, h5 {
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    padding-top:1.5em;
+    font-size: 22px;
+    color: white;
+}
+
+h5 {
+    font-size: 16px;
+    justify-content: left;
+    padding-left: 5em;
+}
+
+.testimonials {
+    display: flex;
+}
+
+#kelsey {
+    width: 20%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonials_left {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
 }

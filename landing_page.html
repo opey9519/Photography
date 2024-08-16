@@ -12,7 +12,7 @@
 
 <body>
 
-    <nav>
+    <nav class="navbar">
         <a id="home" href="landing_page.html">COLOR ME HAPPY</a>
 
         <div class="container" onclick="myFunction(this)">
@@ -21,55 +21,126 @@
             <div class="bar3"></div>
 
             <div id="dropdown" class="dropdown-content">
-                <a class="buttons" href="landing_page.html">Home</a>
-                <a class="buttons" href="#">Pricing</a>
-                <a class="buttons" href="#">Portfolio</a>
-                <a class="buttons" href="#">Contact</a>
-                <a class="buttons" href="#">FAQS</a>
+                <a class="buttons" href="landing_page.html" style="margin-left: 2em;">Home</a>
+                <a class="buttons" href="#" style="margin-left: 2em;">Pricing</a>
+                <a class="buttons" href="#" style="margin-left: 2em;">Portfolio</a>
+                <a class="buttons" href="#" style="margin-left: 2em;">About Me</a>
+                <a class="buttons" href="#" style="margin-left: 2em;">Contact</a>
+                <a class="buttons" href="#" style="margin-left: 2em;">FAQS</a>
             </div>
 
         </div>
     </nav>
 
+    <!-- beach image and scroll across photos -->
     <section class="first">
 
-        <div class="container">
+        <div class="container1">
 
-            <img id="beach_main" src="images/beach.jpg" alt="beach" style="width:100%;">
+            <img id="beach_main" src="images/beach.jpg" alt="beach" style="width:100%; z-index: 0;">
             <!-- <div class="bottom-left">Bottom Left</div>
             <div class="top-left">Top Left</div>
             <div class="top-right">Top Right</div>
             <div class="bottom-right">Bottom Right</div> -->
-            <div class="centered"> <span id="sunset_text">SUNSETS</span></div>
+            <!-- <div class="centered"> <span id="sunset_text">SUNSETS</span></div> -->
 
         </div>
 
     </section>
 
+    <!-- quick aboutme tab and learn more with photographer photo -->
     <section class="second">
-        
+
         <div class="content_left">
             <h2>MEET THE PHOTOGRAPHER</h2>
-                <div class="aboutme">
-                    <p>I've changed a lot through the years. I even went from a strong dislike of cats, to Cat Mom of 5.
-                        One
-                        thing about me remains constant- I must have a creative vibe to all I do!</p>
-                    <p>I've participated in theatre, singing, drawing/painting but photography is my favorite!</p>
-                    <p>I love capturing moments in time, to be treasured. Sights, sounds reimagined at a glance.</p>
-                    <p>I am passionate about creating new feelings of appreciation, excitement, encouragement, pride.
-                    </p>
-                    <p>Photos inspire, ignite feelings and I am here for it!</p>
-                </div>
+            <div class="aboutme">
+                <p class="shadowed">I've changed a lot through the years. I even went from a strong dislike of cats, to
+                    Cat Mom of 5.
+                    One
+                    thing about me remains constant- I must have a creative vibe to all I do!</p>
+                <p class="shadowed">I've participated in theatre, singing, drawing/painting but photography is my
+                    favorite!</p>
+                <p class="shadowed">I love capturing moments in time, to be treasured. Sights, sounds reimagined at a
+                    glance.</p>
+                <p class="shadowed">I am passionate about creating new feelings of appreciation, excitement,
+                    encouragement, pride.
+                </p>
+                <p class="shadowed">Photos inspire, ignite feelings and I am here for it!</p>
 
-                <a id="learn_more" class="buttons_inverse" href="#">LEARN MORE</a>
+            </div>
+
+            <a id="learn_more" class="buttons_inverse" href="#">LEARN MORE</a>
 
         </div>
 
         <div class="content_right">
+
             <h1>THE CREATIVE BEHIND THE CAMERA, I AM OLIVIA WILSON</h1>
             <img id="olivia_pic" src="images/aboutme.jpeg" alt="Picture of Olivia Wilson"
                 style="width: 60%; height:auto;">
         </div>
+
+    </section>
+
+    <!-- select buttons that lead to pages -->
+    <section class="third">
+
+        <div class="third_divs">
+            <h3 class="shadowed">FAQ</h3>
+            <a class="buttons" href="#" style="width: 40%; text-align: center;">Commonly Asked Questions</a>
+        </div>
+
+        <div class="third_divs">
+            <h3 class="shadowed">Portfolio</h3>
+            <a class="buttons" href="#" style="width: 40%; text-align: center;">Memories Captured</a>
+        </div>
+
+        <div class="third_divs">
+            <h3 class="shadowed">Pricing</h3>
+            <a class="buttons" href="#" style="width: 40%; text-align: center;">What Works For You</a>
+        </div>
+
+
+    </section>
+
+    <!-- follow on instagram -->
+    <section class="fourth">
+
+        <p class="shadowed" style="margin-top: 0px; margin-bottom: 0px;">FOLLOW ALONG ON INSTAGRAM<a id="insta_link"
+                href="#">@CMHPHOTOGRAPHYBYOLIVIA</a></p>
+
+    </section>
+
+    <!-- testimonials slide -->
+    <section class="fifth">
+        <h4 class="shadowed">Testimonials</h4>
+
+        <div class="testimonials">
+
+            <div class="testimonials_left">
+                <img id="kelsey" src="images/kelsey.jpg" alt="">
+            </div>
+
+
+            <div class="testimonials_right">
+                <h5 class="shadowed">Kind Words</h5>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores rem neque, dicta eum quas
+                    consectetur enim! Placeat saepe dignissimos, incidunt repellendus quo, doloremque excepturi
+                    architecto eligendi, fugit consequatur earum molestias.
+                    Nihil voluptatibus delectus nemo at fugit quisquam eos vel eaque iure veritatis soluta impedit
+                    repellat obcaecati eveniet facilis nulla laboriosam, voluptatum vitae sint voluptatem ullam? Quam
+                    necessitatibus qui nobis officia?</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- footer/wrap up -->
+    <section class="sixth">
+
+
 
     </section>
 
