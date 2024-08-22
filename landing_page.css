@@ -5,6 +5,15 @@ body {
     padding: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
 nav {
     background-color: #B08968;
     height: 80px;
@@ -271,7 +280,7 @@ h3 {
     border-bottom: 4px solid #EDE0D4;
 }
 
-#insta_link {
+.insta_link {
     text-decoration: none;
     color: #EDE0D4;
     background-color: #7F5539;
@@ -281,7 +290,7 @@ h3 {
     margin-left: 10px;
 }
 
-#insta_link:hover {
+.insta_link:hover {
     color: #7F5539;
     background-color: #EDE0D4;
     border: 2px solid #7F5539;
@@ -290,7 +299,7 @@ h3 {
 
 .fifth {
     width: 100%;
-    height: 400px;
+    height: 1200px;
     background-color: #E6CCB2;
 }
 
@@ -301,38 +310,122 @@ h3 {
     top: 0;
 }
 
-h4, h5 {
+h4,
+h5 {
     margin-top: 0;
     display: flex;
     justify-content: center;
-    padding-top:1.5em;
+    padding-top: 1.5em;
     font-size: 22px;
     color: white;
 }
 
+h4 {
+    font-size: 26px;
+}
+
 h5 {
-    font-size: 16px;
+    font-size: 20px;
     justify-content: left;
-    padding-left: 5em;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 3em;
+    text-align: center;
 }
 
 .testimonials {
     display: flex;
+    margin-top: 2em;
 }
 
-#kelsey {
-    width: 20%;
+#kelsey,
+#yadaira {
+    width: 40%;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 25px;
+    border: 1px solid white;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
-.testimonials_left {
+.testimonials_left,
+.testimonials_right {
     margin-top: 1em;
     margin-bottom: 1em;
     width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: center;   
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonials_right {
+    width: 70%;
+    padding-top: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.sixth {
+    background-color: #67452e;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa {
+    padding: 8px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20%;
+    margin: 5px;
+}
+
+.fa:hover {
+    opacity: 0.85;
+}
+
+/* Facebook */
+.fa-facebook {
+    background-color: #B08968;
+    /* background: #3B5998; */
+    color: white;
+}
+
+.fa-instagram {
+    background-color: #B08968;
+    /* background: #833ab4;
+    background: linear-gradient(to right,
+            #833ab4, #fd1d1d, #fcb045); */
+    color: white;
+}
+
+hr {
+    background-color: #B08968;
+    height: 2px;
+    width: 80%;
+    display: flex;
+}
+
+#divider {
+    width: 87%;
+    height: 2px;
+    background-color: #B08968;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5em;
 }
