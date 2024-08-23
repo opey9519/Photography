@@ -1,0 +1,252 @@
+body {
+    background-color: #EDE0D4;
+    font-family: 'Times New Roman', Times, serif, serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    color: #7F5539;
+}
+
+nav {
+    background-color: #B08968;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 4px solid #E6CCB2
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+}
+
+#home {
+    color: #EDE0D4;
+    margin-left: 4em;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    border-radius: 25px;
+    width: 10em;
+    text-align: center;
+    font-size: large;
+}
+
+.buttons {
+    color: #7F5539;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    border: 2px solid #7F5539;
+    /* border-radius: 25px; */
+    width: 3em;
+    background-color: #EDE0D4;
+    display: inline;
+}
+
+.buttons:hover {
+    color: #EDE0D4;
+    background-color: #7F5539;
+}
+
+.buttons_inverse {
+    color: #EDE0D4;
+    background-color: #7F5539;
+    padding: 1em;
+    display: block;
+    text-decoration: none;
+    width: 8em;
+    display: inline;
+    text-align: center;
+    border: #7F5539 solid 2px;
+}
+
+.buttons_inverse:hover {
+    color: #7F5539;
+    background-color: #EDE0D4;
+    border: 2px solid #7F5539;
+}
+
+.navigation {
+    text-decoration: none;
+}
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+    /* margin-right: 3em; */
+    position: sticky;
+    top: 0;
+    z-index: 9;
+}
+
+/* CSS to bars */
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #EDE0D4;
+    margin: 6px 0;
+    transition: 0.4s;
+    margin-right: 4em;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+/* Makes sure content does not automatically appear */
+.dropdown-content {
+    display: none;
+    margin-right: 2em;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.first {
+    background-color: #E6CCB2;
+    width: 100%;
+    height: 1000px;
+    display: flex;
+}
+
+#olivia_pic {
+    width: 500px;
+    height: 690px;
+    border: 1px solid white;
+}
+
+.content_left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_right { 
+    width: 50%;
+    color: #EDE0D4;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutme {
+    background-color: #7F5539;
+    margin-right: 6em;
+    margin-top: 2em;
+    margin-bottom: 3em;
+    font-size: 24px;
+    color: #EDE0D4;
+    padding: 1.5em;
+    border: 3px solid #67452e;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#learn_more {
+    padding: 1em;
+    font-size: 18px;
+    border-radius: 12px;
+    margin-right: 8em;
+}
+
+.third {
+    background-color: #67452e;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa {
+    padding: 8px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20%;
+    margin: 5px;
+}
+
+.fa:hover {
+    opacity: 0.85;
+}
+
+/* Facebook */
+.fa-facebook {
+    background-color: #B08968;
+    /* background: #3B5998; */
+    color: white;
+}
+
+.fa-instagram {
+    background-color: #B08968;
+    /* background: #833ab4;
+    background: linear-gradient(to right,
+            #833ab4, #fd1d1d, #fcb045); */
+    color: white;
+}
+
+hr {
+    background-color: #B08968;
+    height: 2px;
+    width: 80%;
+    display: flex;
+}
+
+#divider {
+    width: 87%;
+    height: 2px;
+    background-color: #B08968;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5em;
+}
